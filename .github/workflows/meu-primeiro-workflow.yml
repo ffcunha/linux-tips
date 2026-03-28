@@ -7,7 +7,7 @@ on:
 
 jobs:
   giropops:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Confere versão do ubuntu
         run: cat /etc/os-release
