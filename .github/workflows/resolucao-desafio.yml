@@ -24,7 +24,7 @@ jobs:
 
         - name: Verificar se secret está definido
           run: |
-              if [ -z "${{ secrets.DOCKERHUB_PASSWORD }}" ]; then
+              if [ -z "${{ secrets.DOCKERHUB_TOKEN }}" ]; then
                 echo "Secret vazio"
               else
                 echo "Secret OK"
